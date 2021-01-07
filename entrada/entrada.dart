@@ -1,7 +1,12 @@
 import 'dart:io';
 
 main() {
-  print("escreva seu nome");
+  print("escreva Antonio");
   var input = stdin.readLineSync();
-  print(input);
+
+  if (input == "antonio") {
+    print("voce escreveu: " + input);
+  } else {
+    print("voce escreveu: " + input + ", nome errado" );
+  }
 }
