@@ -1,4 +1,3 @@
- main {
+main() {
 print("ola mundo");
-
 }
