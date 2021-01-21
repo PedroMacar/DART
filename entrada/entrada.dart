@@ -1,12 +1,24 @@
 import 'dart:io';
 
 main() {
-  print("escreva Antonio");
-  var input = stdin.readLineSync();
-
-  if (input == "antonio") {
-    print("voce escreveu: " + input);
+  print("escreva seu nome");
+  var entnota1 = stdin.readLineSync();
+  var num = int.parse(entnota1);
+ 
+    if (num >= 50) {
+    print(" eh adulto");
+  } else if (num >= 18 && num <= 49) {
+    print(" eh jovem");
+  } else if (num >= 12 && num <= 17) {
+    print(" eh adolescente");
   } else {
-    print("voce escreveu: " + input + ", nome errado" );
+    print("eh crianca");
   }
 }
+mostrar(){
+  var d= 5;
+  if(d == 5){
+    
+  }
+}
+
