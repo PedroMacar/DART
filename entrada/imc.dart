@@ -14,13 +14,13 @@ entrada() {
   print("informe a sua altura");
   String entaltura = stdin.readLineSync();
   double altura = double.parse(entaltura);
-  calcimc(peso, altura);
+  calcimc(idade, peso, altura);
 
-  decisao(idade);
 }
 
-calcimc(int peso, double altura) {
+calcimc(int idade,int peso, double altura) {
   double calc = peso / (altura * altura);
+  decisao(idade, calc);
 }
 
 decisao(int idade,double calc) {
